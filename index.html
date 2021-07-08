@@ -1,20 +1,83 @@
 <html>
     <head>
-        <title>Bom dia</title> 
-        <style type=text/css>
+        <title>Prog Web I</title>
+        <style type-text/css>
+
         body {
-                color: purple;
-                font-family: 'Courier New', Courier, monospace;
-         }
-         p {
-             color:green
-         }
+            background:indigo;
+            color:sandybrown ;
+        }
+        p {
+            color: sandybrown ;
+        }
+        </style>
+        <style>
+            ul{
+                list-style-type:none;
+                background-color: sandybrown;
+                list-style-position: inside;
+        }
+            ol{
+                background-color: sandybrown;
+            }
+            a{
+                text-decoration:none;
+                color:#666666;
+            }
+            a:hover {
+                color:khaki;
+            }
+            figure img {
+                width: 400px;
+            }
+            header{
+                background-image: url("https://i.pinimg.com/originals/1d/09/c4/1d09c4fb39f4ada83fc427e2df8cf8c5.png");
+            }
         </style>
     </head>
     <body>
-        <h1>Victor Valentim - Prog. Web 1</h1>
-        <h1>Este é o primeiro parágrafo</h1>
-        <p><b>Este texto é o primeiro paragrafo da página html</b></p>
+        <header>
+        <h1>Você Está Entediado na Quarentena? Bom, eu estou </h1>
+        <h2>Pretendo deixar aqui algumas sugestões de filmes, músicas e etc, que conheci nesse período de isolamento e curti bastante. </h2>
+        
+            <h1><b>Músicas</b></h1>
+        </header>
+        <section>
+            <figure>
+                <figcaption>Funny Image 1</figcaption>
+                <img src= "https://4.bp.blogspot.com/-yxUcOn6Z0G4/VGqbWnRLxHI/AAAAAAAAEzo/yxVFRk-1JxM/s1600/01slash.jpg"
+                alt= "Slash com cara de nojo pegando uma lesma">
+            </figure>
+        </section>
         <br>
-        <h2>este é o primeiro subtítulo</h2>
-        <p>este é o segundo parágrafo</p>
+        <p>Começando do começo deixo desde já um link do youtube que acho interessante e abaaixo uma lista com algumas musicas: </p>
+
+        <p>O melhor<a href="https://youtu.be/XqTCAZK9rzY"> baixista de funk </a>da história simplesmente (observe atentamente o baterista de jazz quase explodindo)</p>
+        <br>
+        <ul>
+            <li><a href="https://youtu.be/Dy4HA3vUv2c">Blue Oyster Cult - (Don't Fear) The Reaper</a></li>
+            <li><a href="https://youtu.be/jyLMgIR69G4">Blue Oyster Cult: Then Came the Last Days of May</a></li>
+            <li><a href= "https://youtu.be/XJ035W-2p6M">Castles Made of Sand - Jimmy Hendrix</a></li>
+            <li><a href= "https://youtu.be/gdFQtbXAWdc">The Rolling Stones - The Last Time</a></li>
+        </ul>
+        <h1><b>Filmes e Séries</b></h1>
+        <section>
+            <figure>
+                <figcaption>Funny Image 2</figcaption>
+                <img src= "data:image/jpeg;base64,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"
+                alt= "Walter White da derrota">
+            </figure>
+        </section>
+        <br>
+        <p>Abaixo estão os filmes e séries que eu recomendo ordenados pela ordem dos que mais curti</p>
+        <ol>
+            <li><a href=https://youtu.be/zzy6wWjFONY>1 Better Call Saul</a></li>
+            <li><a href=https://youtu.be/BV_nssS6Zkg>2 Gangster</a></li>
+            <li><a href=https://youtu.be/tjujvMkqWe4>3 The Witcher</a></li>
+            <li><a href=https://youtu.be/PS4gsWDSn68>4 Rolling Thunder Revue(Bob Dylan)</a></li>
+        </ol>
+        <h1><b>Bônus</b></h1> 
+        <p>Por último eu gostaria de recomendar um livro que me surpreendeu muito, a <a href="https://www.amazon.com.br/Acid-children-autobiografia-lenda-Peppers/dp/6555370009/ref=sr_1_1?adgrpid=81589511232&dchild=1&gclid=Cj0KCQjwxJqHBhC4ARIsAChq4asZTpDILc2whjQ_EIWhp_hQPiCXsF5ovl9vbkEYU2wGXoGZ2U8-LPAaAjEWEALw_wcB&hvadid=426016015358&hvdev=c&hvlocphy=1001549&hvnetw=g&hvqmt=e&hvrand=13078032606063137464&hvtargid=kwd-421142399451&hydadcr=5652_11235189&keywords=acid+for+the+children&qid=1625757655&sr=8-1">autobiografia de Michael Balzari.</a></p>
+    </body> 
+</html>
+
