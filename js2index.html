@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>js2</title>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            inserirBotoesInnerHTML();
+            inserirBotaoJS();
+            });
+            function diminuir(fontSize) {
+            h1 = document.querySelector("h1")
+            h1.style.fontSize = "40px";
+            }
+            function aumentar(fontSize) {
+            h1 = document.querySelector("h1")
+            h1.style.fontSize = "50px";
+            }
+            function inserirBotaoJS() {
+            div = document.createElement("div");
+            div.appendChild(botao);
+            document.body.prepend(div);
+            }
+            function inserirBotoesInnerHTML() {
+            div = document.createElement("div");
+            div.style.backgroundColor = "black";
+            div.innerHTML = `
+            <button onclick="aumentar('fontSize')">+</button>
+            <button onclick="diminuir('fontSize')">-</button>`;
+            document.body.prepend(div);
+            }
+
+        </script>
+    </head>
+    <body>
+        <h1> Título </h1>
+    </body>
+
+</html>
