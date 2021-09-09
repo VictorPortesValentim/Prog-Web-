@@ -8,12 +8,13 @@
                 h1.style.fontSize = `${tamanho}em`;
             }
             function aumentar() {
-            tamanho += 0,2;
+            tamanho += 0.2;
             novotamanho()
             }
             function diminuir() {
                 if (tamanho > 0) {
-                    tamanho -= 0,2;
+                    tamanho -= 0.2;
+                    novotamanho();
                 }
 
             }
