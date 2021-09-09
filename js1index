@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>js1</title>
+        <script>
+            let tamanho = 3;
+            function novotamanho() {
+                const h1 = document.querySelector("h1");
+                h1.style.fontSize = '${tamanho}em';
+            }
+            function aumentar() {
+            tamanho += 0,3;
+            novotamanho()
+            }
+            function diminuir() {
+                if (tamanho > 0) {
+                    tamanho -= 0,3;
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1> Título </h1>
+        <button onclick="aumentar()">+</button>
+        <button onclick="diminuir()">-</button>
+
+    </body>
+
+</html>
